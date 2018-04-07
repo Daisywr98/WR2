@@ -1,0 +1,11 @@
+title: Starter Template
+author: IDudao
+email: zzm@uxwine.com
+description: > # this means to ignore newlines until "baseurl:"
+  独道之处
+
+twitter_username: macrod68
+github_username:  macrod68
+
+sass:
+    style: compressed

@@ -1,0 +1,175 @@
+
+<!DOCTYPE HTML>
+<html lang="zh"><!--展示的是中文网页-->
+<head>          <!--像动物一样，长了个头, 提供关于网页的信息-->   
+    <!--头部特征，暴露基本识别信息-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!--头上的嘴巴，告诉你我说话的语言：万国码，字符编码集-->
+    <title>PC网站布局</title>                                                <!--带个冒子，一看就知道我是干啥的：出现在标签页上-->
+    <meta name="description" content="全栈基础技能-PC网站布局">                <!--更详细的介绍自己，跟投简历一样，方便别人查找。SEO-->
+    
+    <!--内在美，修饰我的样子：层叠样式表-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">          <!--样式字体-->
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="./assets/materialize.css">  <!--通用样式-->
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="./assets/main.css">         <!--本页样式-->     
+    <style> 
+
+    </style>
+
+    <!--中枢，控制我的行为：执行脚本-->
+    <script>
+    </script>
+</head>
+<body>
+    <!--导航栏-->
+    <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" class="brand-logo" href="/">云华全栈</a>   
+        <ul class="right hide-on-med-and-down">
+            <li><a href="/">首页</a></li>
+            <li><a href="/lessons/">全栈课程</a></li>
+            <li><a href="/docs/">参考文档</a></li>
+            <li><a href="/codes/">课程源码</a></li>
+            <li><a href="/about/">关于我们</a></li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
+            <li><a href="/">首页</a></li>
+            <li><a href="/lessons/">全栈课程</a></li>
+            <li><a href="/docs/">参考文档</a></li>
+            <li><a href="/codes/">课程源码</a></li>
+            <li><a href="/about/">关于我们</a></li>
+        </ul>     
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+    </nav>
+    
+    <!--第一段内容展示-->
+    <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <br><br>
+        <h1 class="header center orange-text">HTML5 全栈开发</h1>
+        <div class="row center">
+            <h5 class="header col s12 light"><p>PC前端、移动端、Web后端全栈式开发</p></h5>
+        </div>        
+        <div class="row center">
+            <a href="./getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">开始课程</a>
+        </div>
+        <br><br>
+    </div>
+    </div>
+
+    <!--第二段内容展示-->
+    <div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">前端前沿技术</h5>
+            <p class="light">HTML5 + CSS3 + Javascript</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">后端技术框架</h5>
+            <p class="light">Node.js + MongoDB + Express</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">移动端混合开发</h5>
+
+            <p class="light">微信公众账号，小程序混合开发</p>
+          </div>
+        </div>
+      </div>
+    </div>      
+    </div>
+
+    <!-- 第三段内容展示-->
+    <div style="background: #ddd">
+    <div class="container last-post">
+    <section>
+        <h5>最新发表文章</h5>
+        <ul class="collection">        
+        <li class="collection-item avatar">          
+            <div class="date-post">05/20</div>
+            <span class="title"><a class="post-link" href="/2016/05/20/welcome-to-jekyll.html">HTML5全栈开发</a></span>
+            <p>随着HTML5的流行...</p>
+            <a href="/2016/05/20/welcome-to-jekyll.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+        </li>
+        
+        <li class="collection-item avatar">            
+            <div class="date-post">05/20</div>
+            <span class="title"><a class="post-link" href="/junk/2016/05/20/this-post-demonstrates-post-content-styles.html">Node.js学习</a></span>
+            <p>Node.js学习日志...</p>
+            <a href="/junk/2016/05/20/this-post-demonstrates-post-content-styles.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+        </li>
+        
+        <li class="collection-item avatar">          
+            <div class="date-post">05/20</div>
+            <span class="title"><a class="post-link" href="/misc/2016/05/20/super-long-article.html">Javascript ES6标准</a></span>
+            <p></p><p>Javascript EmacScript标准</p><p></p>
+            <a href="/misc/2016/05/20/super-long-article.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+        </li>
+        
+        <li class="collection-item avatar">          
+            <div class="date-post">05/20</div>
+            <span class="title"><a class="post-link" href="/2016/05/20/my-example-post.html">MongoDB开发课程</a></span>
+            <p></p><p>从SQL到NoSQL...</p><p></p>
+            <a href="/2016/05/20/my-example-post.html" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+        </li>        
+        </ul>  
+    </section>
+    </div>
+    </div>
+
+    <!--页脚-->
+    <footer class="page-footer orange">
+    <div class="container">
+        <div class="row">
+        <div class="col l6 s12">
+            <h5 class="white-text">云华全栈</h5>
+            <p class="grey-text text-lighten-4">专注HTML5全栈式开发</p>
+        </div>
+        <div class="col l3 s12">
+            <h5 class="white-text">关联网站</h5>
+            <ul>
+            <li><a class="white-text" href="#!">华师大</a></li>
+            <li><a class="white-text" href="#!">硚口区</a></li>
+            <li><a class="white-text" href="#!">中科云华</a></li>
+            </ul>
+        </div>
+        <div class="col l3 s12">
+            <h5 class="white-text">HTML5社区</h5>
+            <ul>
+            <li><a class="white-text" href="#!">HTML5中国社区</a></li>
+            <li><a class="white-text" href="#!">Node.js社区</a></li>
+            <li><a class="white-text" href="#!">MongoDB社区</a></li>
+            <li><a class="white-text" href="#!">菜鸟课程</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <div>
+                Made by <a target="_blank" class="orange-text text-lighten-3" href="http://idudao.cn">云华全栈</a>
+                <span style="text-align: right; float: right">
+                Copyright © 2017 <a href="http://www.cloudhua.com" class="orange-text text-lighten-3">中科云华</a>. Powered by <a target="_blank" href="http://idudao.cn/" class="orange-text text-lighten-3">云华全栈</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    </footer>
+      
+    <!--脚本-->                                                                               
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/init.js"></script>
+</body>
+</html>
